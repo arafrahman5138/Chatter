@@ -1,0 +1,10 @@
+.imessage {
+  display: flex;
+}
+
+@media (max-width: 768px){
+  .imessage {
+      flex-direction: column;
+      overflow: scroll;
+  }  
+}
